@@ -63,7 +63,7 @@ $app->post("/admin/users/:iduser/password", function($iduser){
 });
 
 
-$app->get("/admin/users", function() {
+$app->get("/admin/users", function() { 
 
 	User::verifyLogin();
 
